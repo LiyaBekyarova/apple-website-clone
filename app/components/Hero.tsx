@@ -28,14 +28,13 @@ export const Hero = () => {
       ease: "power2.inOut",
       delay: 2,
     });
-
+ 
     gsap.to("#cta", {
-        opacity: 1,
-        y:-50,
-        ease: "power2.inOut",
-        delay: 2,
+      opacity: 1,
+      y: -50,
+      ease: "power2.inOut",
+      delay: 2,
     });
-
   });
 
   return (
